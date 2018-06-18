@@ -1,10 +1,10 @@
-Shopping Cart
+<h1> Shopping Cart</h1>
 
 using ReactJs , Redux 
 
 getting started
 
-install dependencies and start the server
+<h4>install dependencies and start the server</h4>
 
-npm install
+npm install <br/>
 npm start
