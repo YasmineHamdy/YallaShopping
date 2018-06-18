@@ -2,7 +2,7 @@
 
 using ReactJs , Redux 
 
-getting started
+<h2>getting started</h2>
 
 <h4>install dependencies and start the server</h4>
 
