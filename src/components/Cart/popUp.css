@@ -1,0 +1,69 @@
+.modal2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    padding: 5px;
+    color: rgb(81, 161, 116)
+  }
+  .content{
+    margin-top: 10px
+  }
+  .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    opacity: 0.8;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+  
+  
+  .btn {
+    position: relative;
+    border: 0;
+    padding: 15px 25px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+  }
+
+  .btn-gradient.green {
+    background: rgba(130,200,160,1);
+    background: -moz-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(130,200,160,1)), color-stop(100%, rgba(130,199,158,1)));
+    background: -webkit-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+    background: -o-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+    background: -ms-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+    background: linear-gradient(to bottom, rgba(130,200,160,1) 0%, rgba(124, 185, 149, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82c8a0', endColorstr='#82c79e', GradientType=0 );
+  }
+  .btn-gradient {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.21);
+    border-bottom: 4px solid rgba(0,0,0,0.21);
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+  }
+ 
+  a[class*="btn"] {text-decoration: none;}
+  
+  .btn-gradient.small
+   {
+    padding: 8px 18px;  
+    font-size: 14px;
+    margin: 10px
+  }

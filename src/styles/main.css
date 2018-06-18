@@ -1,0 +1,19 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+
+@import '../components/Cart/cart.css';
+@import '../components/Products/product.css';
+@import '../components/Cart/popUp.css';
+body {
+  background-color: #fffff1;
+  font-family: 'Roboto', sans-serif;
+}
+.imgbox {
+  display: grid;
+ }
+.center-fit {
+  width: 95%;
+  max-height: 40vh;
+  margin: auto;
+ }
